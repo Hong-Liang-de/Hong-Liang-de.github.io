@@ -17,7 +17,7 @@ a{color:inherit}
 .nav-cta{border:1px solid var(--ink);padding:8px 14px;border-radius:999px}
 .menu-button{display:none}
 .hero{padding:112px 0 90px}
-.hero-grid{display:grid;grid-template-columns:1.5fr .72fr;gap:85px;align-items:center}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
 .eyebrow,.section-label,.project-tag{color:var(--accent);text-transform:uppercase;letter-spacing:.14em;font-size:.76rem;font-weight:700}
 h1,h2,h3,p{margin-top:0}
 h1{font-size:clamp(4.2rem,9vw,7.7rem);line-height:.88;letter-spacing:-.07em;margin:18px 0 30px}
