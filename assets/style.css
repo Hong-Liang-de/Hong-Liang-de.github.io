@@ -74,10 +74,52 @@ h3{font-size:1.35rem;line-height:1.25}
 .contact-section .section-label{color:#9fc4b2}
 .contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:70px}
 .contact-grid p{color:#bcc9c2}
-.contact-card{display:grid;gap:11px;padding:30px;border-radius:22px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05)}
-.contact-card a{text-decoration:none;word-break:break-word}
-.contact-card small{color:#a9b7b0;margin-top:8px}
-footer{background:#0c1712;color:#aab7b0}
+.contact-card{
+    display:flex;
+    flex-direction:column;
+    padding:18px 34px;
+    border-radius:22px;
+    border:1px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.05);
+}
+
+.contact-card a{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    padding:22px 0;
+    text-decoration:none;
+    color:#fff;
+    border-bottom:1px solid rgba(255,255,255,.12);
+    transition:all .25s ease;
+}
+
+.contact-card a:last-child{
+    border-bottom:none;
+}
+
+.contact-card a span{
+    font-size:.72rem;
+    text-transform:uppercase;
+    letter-spacing:.15em;
+    font-weight:700;
+    color:#9fc4b2;
+}
+
+.contact-card a strong{
+    font-size:1rem;
+    font-weight:500;
+    transition:transform .25s ease;
+}
+
+.contact-card a:hover{
+    opacity:.85;
+}
+
+.contact-card a:hover strong{
+    transform:translateX(8px);
+}
+.footer{background:#0c1712;color:#aab7b0}
 .footer-wrap{display:flex;justify-content:space-between;padding:24px 0;font-size:.9rem}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
 .reveal.visible{opacity:1;transform:none}
