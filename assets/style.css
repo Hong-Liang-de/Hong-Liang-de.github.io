@@ -36,6 +36,9 @@ h3{font-size:1.35rem;line-height:1.25}
     aspect-ratio:4/5;
     overflow:hidden;
     border-radius:20px;
+
+    width:92%;
+    margin:18px;
 }
 
 .portrait img{
